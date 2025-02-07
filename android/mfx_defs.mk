@@ -22,6 +22,9 @@ MFX_CFLAGS += -DMEDIA_VERSION_STR=\"\\\"${MEDIA_VERSION}\\\"\"
 MFX_CFLAGS += -DONEVPL_EXPERIMENTAL
 
 # Android version preference:
+ifneq ($(filter 16 16.% W% ,$(PLATFORM_VERSION)),)
+  MFX_ANDROID_VERSION:= MFX_W
+endif
 ifneq ($(filter 15 15.% U% ,$(PLATFORM_VERSION)),)
   MFX_ANDROID_VERSION:= MFX_V
 endif
