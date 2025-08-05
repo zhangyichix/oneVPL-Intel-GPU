@@ -47,6 +47,7 @@ MFX_LOCAL_SRC_FILES_HW += \
     mfx_lib/encode_hw/av1/linux/base/av1ehw_base_va_lin.cpp \
     mfx_lib/encode_hw/av1/linux/base/av1ehw_base_va_packer_lin.cpp \
     mfx_lib/encode_hw/av1/linux/base/av1ehw_base_max_frame_size_lin.cpp \
+    mfx_lib/encode_hw/av1/linux/base/av1ehw_base_next_lin.cpp \
     mfx_lib/encode_hw/av1/agnostic/Xe_HPM/av1ehw_xe_hpm_segmentation.cpp \
     mfx_lib/encode_hw/av1/linux/Xe_HPM/av1ehw_xe_hpm_lin.cpp \
     mfx_lib/encode_hw/av1/linux/Xe_LPM_plus/av1ehw_xe_lpm_plus_lin.cpp \
@@ -110,6 +111,7 @@ MFX_LOCAL_SRC_FILES_HW += \
     mfx_lib/encode_hw/hevc/linux/base/hevcehw_base_va_packer_lin.cpp \
     mfx_lib/encode_hw/hevc/linux/base/hevcehw_base_qp_modulation_lin.cpp \
     mfx_lib/encode_hw/hevc/linux/base/hevcehw_base_weighted_prediction_lin.cpp \
+    mfx_lib/encode_hw/hevc/linux/base/hevcehw_base_next_lin.cpp \
     mfx_lib/encode_hw/hevc/linux/g12/hevcehw_g12_lin.cpp \
     mfx_lib/encode_hw/hevc/linux/xe_hpm/hevcehw_xe_hpm_lin.cpp \
     mfx_lib/encode_hw/hevc/linux/xe_lpm_plus/hevcehw_xe_lpm_plus_lin.cpp \
