@@ -255,6 +255,7 @@ public:
                 || ((GetPlane0Size(m_user) / m_user.pitches[0]) % m_pitchAlign)     // V-pitch
                 || !fcc.CheckPlanes(surf);                                          // continuous planes allocation
 
+            m_bUseStaging = true; // forcing staging for vaCopy for the time being
             if (!m_bUseStaging)
             {
                 m_staging = {};
